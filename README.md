@@ -1,8 +1,9 @@
 Physics-Informed Neural Networks (PINNs) Hyperparameter Study
 
-Comprehensive evaluation of different architectures and activation functions
-for solving the 1D diffusion equation:
+Comprehensive evaluation of different architectures and activation functions for solving the 1D diffusion equation:
+
 ∂y/∂t = ∂²y/∂x² - e^(-t)(sin(πx) - π²sin(πx))
+
 
 Domain: x ∈ [-1,1], t ∈ [0,1]
 Initial Condition: y(x,0) = sin(πx)
